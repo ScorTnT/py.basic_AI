@@ -2,7 +2,7 @@
 
 # hang man 그림 구현
 def hangmanD(temp) :
-    DRAW = [
+    DRAW = (
     '''
     +===+ 
     |   | 
@@ -91,7 +91,7 @@ def hangmanD(temp) :
     |  / \ 
     |
     |'''
-    ]
+    )
     print(DRAW[temp])
 
 import random
