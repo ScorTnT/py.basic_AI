@@ -118,7 +118,11 @@ while True:
     print()                                 # 단순 줄바꿈
 
     if barcnt == 0 :                        # 밑줄의 개수가 0일 경우 즉, 단어가 완성된 경우
-        print("SUCCESS!!")
+        print("""SUCCESS!!\n
+              \ o /
+                |
+                |
+               / \ """)
         break
     if temp == 7 :                          # 시도 횟수가 7회, 그림이 다 그려졌을 경우
         hangmanD(temp)
